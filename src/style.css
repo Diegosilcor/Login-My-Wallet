@@ -71,11 +71,27 @@ header {
 }
 
 .title {
-  text-transform: capitalize;
-  font-size: 1.25rem;
+  margin-right: 150px;
+  font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: 1px;
-  color: rgb(255, 140, 0);
+  color: rgb(32, 26, 19);
+}
+.title-2 {
+ 
+  margin-left: 60px;
+  padding-bottom: 0px;
+  text-transform: capitalize;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(241, 16, 200);
+}
+.title-3 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(138, 135, 131);
 }
 
 .social-login {
@@ -118,6 +134,7 @@ header {
 .inputs-container {
   height: 55%;
   width: 85%;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -125,6 +142,16 @@ header {
   background-color: white;
 }
 
+.form-control {
+  height: 10%;
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
 .input,
 .btn {
   width: 90%;
